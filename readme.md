@@ -10,4 +10,5 @@
 
 ## BONUS!
 
+- Vote on a mini-lesson for this Friday - http://www.tricider.com/brainstorming/3OpX29QqqRJ
 - When the last link is clicked, one line of the chorus should be displayed. Each subsequent click should display an additional line of the chorus until all 6 lines are displayed.
