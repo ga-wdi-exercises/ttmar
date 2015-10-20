@@ -9,6 +9,4 @@
 - When the second through fifth links are clicked, the relevant part of the song should be displayed. *(Hint: Notice that the `href` of the third link isn't `#`. Maybe some kind of default action should be prevented...)
 
 ## BONUS!
-
-- Vote on a mini-lesson for this Friday - http://www.tricider.com/brainstorming/3OpX29QqqRJ
 - When the last link is clicked, one line of the chorus should be displayed. Each subsequent click should display an additional line of the chorus until all 6 lines are displayed.
