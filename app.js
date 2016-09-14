@@ -1,29 +1,40 @@
-$("#first_paragraph").on("click", function(){
-  $("body").css("background", "#ccc")
+// Links
+var firstLink =  $("#first_paragraph");
+var secondLink = $("#second_paragraph");
+var thirdLink =  $("#first_chorus");
+var fourthLink = $("#third_paragraph");
+var fifthLink =  $("#fourth_paragraph");
+var sixthLink =  $("#second_chorus");
+
+// Text
+var firstParagraph =  $(".first_paragraph");
+var secondParagraph = $("#second_paragraph");
+var thirdParagraph =  $(".first_chorus");
+var fourthParagraph = $(".third_paragraph");
+var fifthParagraph =  $(".fourth_paragraph");
+var sixthParagraph =  $(".second_chorus");
+
+// Listeners
+firstLink.on("click", function(){
+  firstParagraph.style.display = "block"
 })
 
-$("#second_paragraph").on("click", function(){
-  $(".second_paragraph").show()
+secondLink.on("click", function(){
+  secondParagraph.show()
 })
 
-$("#first_chorus").on("click", function(evt){
-  evt.preventDefault();
-  $(".first_chorus").show()
+thirdLink.on("click", function(){
+  thirdParagraph.show()
 })
 
-$("#third_paragraph").on("click", function(evt){
-  evt.preventDefault()
-  $(".third_paragraph").show()
+fourthLink.on("click", function(){
+  fourthParagraph.show()
 })
 
-$("#fourth_paragraph").on("click", function(evt){
-  evt.preventDefault();
-  $(".fourth_paragraph").show()
+fifthLink.on("click", function(){
+  fifthParagraph.show()
 })
 
-var click = 0;
-$("#second_chorus").on("click", function(evt){
-  evt.preventDefault();
-  $(".second_chorus").eq(click).show()
-  click++
+sixthLink.on("click", function(){
+  sixthParagraph.show()
 })
